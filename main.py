@@ -17,7 +17,7 @@ def getGradePoint(x):
     return 2.0
   elif x == 'D':
     return 1.0
-  elif x == 'F':
+  else:
     return 0.0
 
 def run():
